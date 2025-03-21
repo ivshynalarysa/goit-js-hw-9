@@ -28,7 +28,7 @@ body {
   height: 200px;
 }
 
-.basicLightbox {
+.sl-overlay {
   background: rgba(46, 47, 66, 0.8);
 }
 
