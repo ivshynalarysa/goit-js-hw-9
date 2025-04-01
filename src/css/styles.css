@@ -33,7 +33,60 @@ body {
 }
 
 
-.sl-wrapper .sl-counter .sl-close .sl-navigation button {
-  color: #fff;
+
+
+.sl-next,
+.sl-prev,
+.sl-close,
+.sl-counter {
+    color: #FFF !important;
 }
 
+.feedback-form {
+  padding: 28px;
+  width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+
+
+input, textarea{
+  outline: transparent;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  transition: border-color 250ms ease-in-out;
+}
+
+input:hover,
+textarea:hover{
+  border-color: black;
+}
+
+textarea{
+  height: 80px;
+}
+
+button{
+  border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+    display: inline;
+    width: fit-content;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    background: #4e75ff;
+    transition: background 250ms ease-in-out;
+}
+
+button:hover{
+  background: #6c8cff;
+}
