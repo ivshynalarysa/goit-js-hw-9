@@ -73,7 +73,7 @@ textarea{
   height: 80px;
 }
 
-button{
+.btn-submitgit {
   border-radius: 8px;
     padding: 8px 16px;
     border: none;
