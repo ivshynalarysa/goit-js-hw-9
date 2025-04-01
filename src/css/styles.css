@@ -29,7 +29,7 @@ body {
 }
 
 .sl-overlay {
-  background: rgba(46, 47, 66, 0.8);
+  background: rgba(46, 47, 66, 0.8); !important
 }
 
 
