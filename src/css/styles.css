@@ -3,7 +3,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+a {text-decoration: none;} 
 ul {
   list-style: none;
   margin: 0;
@@ -16,9 +16,11 @@ body {
   padding: 24px;
   
 }
-
+.goback {
+  margin-bottom: 0;
+}
 .gallery {
-  padding-bottom: 12px;
+  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
