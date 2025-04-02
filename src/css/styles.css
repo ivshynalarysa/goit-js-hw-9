@@ -18,7 +18,7 @@ body {
 }
 
 .gallery {
- 
+  padding-bottom: 12px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
