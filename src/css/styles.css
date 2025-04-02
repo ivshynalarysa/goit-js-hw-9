@@ -17,6 +17,7 @@ body {
 }
 
 .gallery {
+  padding-top: 8px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -87,6 +88,8 @@ textarea{
     transition: background 250ms ease-in-out;
 }
 
-button:hover{
+.btn-submit:hover{
   background: #6c8cff;
 }
+
+
